@@ -1,0 +1,40 @@
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #008F8F; 
+	font-size: 2em;	
+	margin-bottom: 0;
+}
+			
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #008F8F; 
+	font-size: 1.2em;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+/* Top horizontal navigation bar */
+nav a {
+	color: #DB7070;
+	padding: 5px 15px;
+	text-decoration: none;
+	margin-top: 10px;
+	display: inline-block;
+	background-color: #FDF5E6; /* standard color OldLace */
+	border-left: 5px solid #800000 /* Maroon */;
+}
+nav a:visited, a:link {
+	color: #607D8B;
+}
+	
+nav a:hover {
+	color: #800000; /* standard color Maroon */
+	background-color: #FAF0E6; /* standard color Linen */
+	font-weight: bold;
+}
+nav a.active {
+	color: #FFFFFF; /* White */
+	background-color: 5px solid #800000; /* standard color Maroon */
+	font-weight: bold;
+	}
+
