@@ -20,7 +20,7 @@ nav a {
 	text-decoration: none;
 	margin-top: 10px;
 	display: inline-block;
-	background-color: #FDF5E6; /* standard color OldLace */
+	background-color: #ffffff; /* standard color White */
 	border-left: 5px solid #800000 /* Maroon */;
 }
 nav a:visited, a:link {
@@ -28,8 +28,8 @@ nav a:visited, a:link {
 }
 	
 nav a:hover {
-	color: #800000; /* standard color Maroon */
-	background-color: #FAF0E6; /* standard color Linen */
+	// color: #800000; /* standard color Maroon */
+	// background-color: #FAF0E6; /* standard color Linen */
 	font-weight: bold;
 }
 nav a.active {
@@ -37,4 +37,23 @@ nav a.active {
 	background-color: 5px solid #800000; /* standard color Maroon */
 	font-weight: bold;
 	}
-
+nav a:first-of-type {
+	border-left: 20px solid #88454f;
+	color: #88454f;
+}
+nav a:nth-of-type(2) {
+	border-left: 20px solid #876714;
+	color: #876714;
+}
+nav a:nth-of-type(3) {
+	border-left: 20px solid #025ca0;
+	color: #052ca0;
+}
+nav a:nth-of-type(4) {
+	border-left: 20px solid #5c6e14;
+	color: #5c6e14;
+}
+nav a:nth-of-type(5) {
+	border-left: 20px solid #a84818;
+	color: #a84818;
+}
